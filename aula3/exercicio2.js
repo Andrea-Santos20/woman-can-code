@@ -1,8 +1,9 @@
-/*
-var meuNome;
-console.log(meuNome)
-mensagem: undefined
-*/
+var saldo = 50;
+var saldoComBonus = saldo + 20;
+var saldoComDesconto = saldoComBonus / 0.5;
+var saldoFinal = saldoComDesconto;
 
-var meuNome = "Andrea"
-console.log(meuNome)
+console.log(saldo)
+console.log(saldoComBonus)
+console.log(saldoComDesconto)
+console.log(saldoFinal)
