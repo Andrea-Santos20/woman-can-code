@@ -3,16 +3,15 @@ function validaMaioridade(anoDeNascimento) {
      let idade = 2021 - anoDeNascimento
  
    if(idade >= 18) {
-       return ("Você é maior de idade. Liberação autoriza!")
+       console.log ("Você é maior de idade. Liberação autorizada!")
    }else if (idade === 18) {
-        return ("Validar documento de identidade!")
+        console.log ("Validar documento de identidade!")
    } else {
-       return ("ATENÇÃO: Liberação não autorizada, você é menor de idade!")
+       console.log ("ATENÇÃO: Liberação não autorizada, você é menor de idade!")
    }          
 }
      let resultado = validaMaioridade(1982)
-     
-     console.log(resultado)
+     return resultado
      
 
      
